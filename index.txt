@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+    <title>My Official Website</title>
+    <body background= 'theimages\bg.jpg'> 
+ <style>
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: saddlebrown;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #F4A460;
+}
+.text-box {
+  width: 100%;
+  color: #333;
+  position: absolute;
+  top: 45%;
+  bottom: 50%;
+  text-align: center;
+}
+.section h1 {
+  font size: 62px;
+}
+.section p{
+  margin: 10px 40px;
+  background-color: burlywood;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #8B4513;
+  border: 1px solid #D2691E;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 3px solid #FFDAB9;
+  background: #FFDAB9;
+  transition: 1s;
+}
+.header {
+  transition: all 0.3s;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.column {
+  float: left;
+  width: 30.00%;
+  padding: 30px;
+}
+
+.row:after {
+  content: "";
+  display: t30.50;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  border: 1px solid #D2691E;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(){
+  background-color: #DEB887;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 15px;
+  
+}
+
+div.gallery:hover {
+  border: 5px solid #DEB887;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.myform {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper {
+  position: center;
+  top: 30%;
+  transform: translate(60%,5%);
+  max-width: 500px;
+  width: 100%;
+  background: transparent;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1) #DEB887;
+}
+.wrapper .input_field {
+  margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+    width: 300px;
+    border:1px solid #e0e0e0;
+    padding: 10px;
+}
+.wrapper textarea {
+  height: 80px;
+  resize: none;
+}
+button {
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 30%;
+  background:#DEB887;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper #error_message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #DC143C;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width:400px) {
+  .column {
+    font-size: 100px;
+    width: 50%;
+  }
+}
+</style>
+    <!-- Primary Menu -->
+    <nav>
+      <div class="module menu right">
+        <ul id="nav-primary" class="nav nav-primary">
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="edu.html">Education</a></li>
+          <li><a href="biodata.html">Biography</a></li>
+          <li><a href="D032010048.html">Home</a></li>
+        </ul>
+      </div>
+      <section>
+    <div class="text-box">
+          <h1><center> WELCOME TO MY WEBSITE </center></h1>
+          <p> Get to know me on my website. </p>
+          <br>
+          <a href="biodata.html"class="hero-btn"> My Resume </a>
+        </br>
+        </div>
+      </section>
+    </nav>
+    
+        &nbsp; &nbsp; &nbsp; &nbsp; <img src="theimages\self.png" alt="self" width="500" height="500">
+
+  </style>
+  </div>
+</head>
+</body>
+</html>
